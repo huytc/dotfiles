@@ -36,16 +36,3 @@ vim.schedule(function()
   require "mappings"
 end)
 
--- vim plug
-local vim = vim
-local Plug = vim.fn['plug#']
-vim.call('plug#begin')
-
--- fzf
-Plug('junegunn/fzf', { ['do'] = function()
-  vim.fn['fzf#install']()
-end })
-Plug('junegunn/fzf.vim')
-
-vim.call('plug#end')
-

@@ -36,3 +36,6 @@ vim.schedule(function()
   require "mappings"
 end)
 
+vim.opt.grepprg = "rg --vimgrep --smart-case --follow"
+vim.opt.grepformat = "%f:%l:%c:%m"
+

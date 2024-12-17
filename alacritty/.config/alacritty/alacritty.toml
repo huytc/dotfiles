@@ -1,14 +1,14 @@
 live_config_reload = true
 
 [window]
-opacity = 0.9
+opacity = 0.8
 blur = true
 padding = { x = 16, y = 16 }
 startup_mode = "Maximized"
 
 [font]
 normal = { family = "MesloLGS NF", style = "Regular" }
-size = 12
+size = 16
 
 [env]
 TERM = "alacritty"
